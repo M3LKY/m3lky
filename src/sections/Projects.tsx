@@ -7,38 +7,30 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
-      image: "/project1.png",
-      projectName: "Pokedex",
+      image: "/connecpic.png",
+      projectName: "Connecto",
       projectLink: "https://netlify.com",
       projectDescription:
-        "This is a web application that uses the PokeAPI to display information about different Pokemon, including their evolution levels and details. You can compare multiple Pokemon using a queue, and add them to your personal list using Firebase's Firestore database.",
-      projectTech: [
-        "React",
-        "Redux Toolkit",
-        "SCSS",
-        "Firebase",
-        "Typescript",
-        "PokeApi",
-      ],
+        "An application engineered for seamless sharing of moments, dynamic interaction, and real-time conversations. Crafted with technologies like React for a responsive UI, Node.js for a versatile backend, Cloudinary for efficient media storage, MongoDB for reliable data persistence, and Javascript for versatile functionality.",
+      projectTech: ["React", "Node.js", "Cloudinary", "MongoDB", "Javascript", "Sockets"],
+
       projectExternalLinks: {
         github: "",
         externalLink: "",
       },
     },
     {
-      image: "/project2.png",
-      projectName: "Realtime Chat App",
+      image: "/tech.png",
+      projectName: "Tech-Store",
       projectLink: "https://netlify.com",
-      projectDescription:
-        "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React. It has 300+ stars on GitHub and over 180k views on YouTube.",
-      projectTech: [
-        "React",
-        "Sockets",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Styled Components",
-      ],
+      projectDescription: "Tech-Store app is an e-commerce platform offering a user-friendly interface for browsing and purchasing a diverse range of technology products. From the latest gadgets to high-performance devices, our app caters to tech enthusiasts and casual shoppers alike.",
+projectTech: [
+  "React",
+  "Node.js",
+  "Stripe",
+  "SASS",
+],
+
       projectExternalLinks: {
         github: "",
         externalLink: "",
@@ -105,7 +97,7 @@ function Projects() {
                 <div className="project-image">
                   <div className="project-image-overlay"></div>
                   <div className="project-image-container">
-                    <Image src={image} fill alt={projectName} quality={100}  />
+                    <Image src={image} fill alt={projectName} quality={100} />
                   </div>
                 </div>
                 <div className="project-info">

@@ -17,7 +17,7 @@ function Contact() {
     >
       {/* <h2 className="contact-sub-title">Get In Touch</h2> */}
       <div className="contact-cta">
-        <Button link="melquisedecgonzalez74@gmail.com" text="Get In Touch" />
+        <Button link="mailto:melquisedecgonzalez74@gmail.com" text="Get In Touch" />
       </div>
     </motion.div>
   );

@@ -37,7 +37,7 @@
       &-image {
         &-container {
           position: relative;
-          width: 600px;
+          width: 540px;
           height: 300px;
         }
         position: absolute;
@@ -177,6 +177,7 @@
           .project-image {
             left: 0;
             right: initial;
+            border-radius: 20px;
           }
         }
       }
@@ -190,6 +191,7 @@
           &-container {
             width: 500px;
             height: 300px;
+            
           }
         }
         .project-info {
