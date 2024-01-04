@@ -9,52 +9,37 @@ function Projects() {
     {
       image: "/connecpic.png",
       projectName: "Connecto",
-      projectLink: "https://netlify.com",
       projectDescription:
         "An application engineered for seamless sharing of moments, dynamic interaction, and real-time conversations. Crafted with technologies like React for a responsive UI, Node.js for a versatile backend, Cloudinary for efficient media storage, MongoDB for reliable data persistence, and Javascript for versatile functionality.",
-      projectTech: ["React", "Node.js", "Cloudinary", "MongoDB", "Javascript", "Sockets"],
+      noteDescription:
+        "For testing: { username: LeeSung, password: 123 }",
+      projectTech: [
+        "React",
+        "Node.js",
+        "Cloudinary",
+        "MongoDB",
+        "Javascript",
+        "Sockets",
+      ],
 
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/M3LKY/media.git",
+        externalLink: "https://connecto-ec2t.onrender.com",
       },
     },
     {
       image: "/tech.png",
       projectName: "Tech-Store",
-      projectLink: "https://netlify.com",
-      projectDescription: "Tech-Store app is an e-commerce platform offering a user-friendly interface for browsing and purchasing a diverse range of technology products. From the latest gadgets to high-performance devices, our app caters to tech enthusiasts and casual shoppers alike.",
-projectTech: [
-  "React",
-  "Node.js",
-  "Stripe",
-  "SASS",
-],
+      projectDescription:
+        "Tech-Store app is an e-commerce platform offering a user-friendly interface for browsing and purchasing a diverse range of technology products. From the latest gadgets to high-performance devices, our app caters to tech enthusiasts and casual shoppers alike.",
+      projectTech: ["React", "Node.js", "Stripe", "SASS"],
 
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/M3LKY/tech-store.git",
+        externalLink: "https://tech-store-hazel.vercel.app",
       },
     },
-    {
-      image: "/project3.png",
-      projectName: "Netflix App",
-      projectLink: "https://netlify.com",
-      projectDescription:
-        "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
-      projectTech: [
-        "React",
-        "Node.js",
-        "Firebase",
-        "MongoDB",
-        "Express",
-        "Redux Toolkit",
-      ],
-      projectExternalLinks: {
-        github: "",
-        externalLink: "",
-      },
-    },
+    
   ];
   return (
     <div className="projects" id="work">
@@ -76,10 +61,10 @@ projectTech: [
           ({
             image,
             projectDescription,
-            projectLink,
             projectExternalLinks,
             projectName,
             projectTech,
+            noteDescription
           }) => {
             return (
               <motion.div
@@ -103,7 +88,7 @@ projectTech: [
                 <div className="project-info">
                   <h3 className="project-info-title">{projectName}</h3>
                   <div className="project-info-description">
-                    <p>{projectDescription}</p>
+                    <p>{projectDescription}<br/><div style={{color:"lightpink"}}>{noteDescription}</div></p>
                   </div>
                   <ul className="project-info-tech-list">
                     {projectTech.map((tech) => (
@@ -116,7 +101,7 @@ projectTech: [
                     <li className="project-info-links-item">
                       <Link
                         href={projectExternalLinks.github}
-                        className="project-info-links-item-link"
+                        className="project-info-links-item-link" target="_blank"
                       >
                         <FiGithub />
                       </Link>
@@ -124,7 +109,7 @@ projectTech: [
                     <li className="project-info-links-item">
                       <Link
                         href={projectExternalLinks.externalLink}
-                        className="project-info-links-item-link"
+                        className="project-info-links-item-link" target="_blank"
                       >
                         <FiExternalLink />
                       </Link>

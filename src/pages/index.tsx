@@ -2,7 +2,6 @@ import Head from "next/head";
 import Email from "@/components/Email";
 import Loader from "@/components/Loader";
 import Email2 from "@/components/Email2";
-import Footer from "@/sections/Footer";
 import Hero from "@/sections/Hero";
 import Navbar from "@/sections/Navbar";
 import React, { useState } from "react";

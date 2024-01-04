@@ -96,10 +96,10 @@ function Experience() {
       <div className="container-info">
           
           <div className="container-info-list">
-            <div className="container-info-list-item">
+            {/* <div className="container-info-list-item">
               <Image src={"/typescript-svgrepo-com.svg"} alt="" width={"65"} height={"65"}/>
               <p>Typescript</p>
-            </div>
+            </div> */}
             <div className="container-info-list-item">
               <Image src={"/react-javascript-js-framework-facebook-svgrepo-com.svg"} alt="" width={"65"} height={"65"}/>
               <p>React</p>
@@ -119,10 +119,10 @@ function Experience() {
               <p>PostgreSQL</p>
             </div>
           
-            <div className="container-info-list-item">
+            {/* <div className="container-info-list-item">
               <Image src={"/go-svgrepo-com.svg"} alt="" width={"65"} height={"65"}/>
               <p>Go</p>
-            </div>
+            </div> */}
             <div className="container-info-list-item">
               <Image src={"/css-svgrepo-com.svg"} alt="" width={"65"} height={"65"}/>
               <p>Css</p>
