@@ -29,7 +29,7 @@ function About() {
         <h2>About Me</h2>
       </div>
           <p className="about-grid-info-text">
-          Computer Systems Engineer student seeking my first tech gig. Keen on soaking up knowledge and making a positive impact. Excited about growing, learning, and contributing to innovative projects.
+          Computer Systems Engineer student seeking my first tech opportunity. Passionate about gaining knowledge and making a positive impact. Excited about growing, learning, and contributing to innovative projects.
           </p>
           
         </div>

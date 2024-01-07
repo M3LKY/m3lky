@@ -31,11 +31,11 @@ function Projects() {
       image: "/tech.png",
       projectName: "Tech-Store",
       projectDescription:
-        "Tech-Store app is an e-commerce platform offering a user-friendly interface for browsing and purchasing a diverse range of technology products. From the latest gadgets to high-performance devices, our app caters to tech enthusiasts and casual shoppers alike.",
+        "Tech-Store is an e-commerce platform with a user-friendly interface for browsing and purchasing a diverse range of technology products, from the latest gadgets to high-performance devices.",
       projectTech: ["React", "Node.js", "Stripe", "SASS"],
 
       projectExternalLinks: {
-        github: "https://github.com/M3LKY/tech-store.git",
+        github: "https://github.com/M3LKY/TShop.git",
         externalLink: "https://tech-store-hazel.vercel.app",
       },
     },

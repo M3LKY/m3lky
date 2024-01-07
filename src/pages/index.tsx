@@ -8,7 +8,7 @@ import React, { useState } from "react";
 import About from "@/sections/About";
 import Contact from "@/sections/Contact";
 import Projects from "@/sections/Projects";
-import Experience from "@/sections/Experience";
+import Skills from "@/sections/Skills";
 
 function Index() {
   const [isLoading, setIsLoading] = useState(true);
@@ -29,15 +29,14 @@ function Index() {
         <>
           <Navbar />
           <Email2 />
-          <Email />
+          {/* <Email /> */}
           <main>
             <Hero />
             <About />
-            <Experience />
+            <Skills />
             <Projects />
             <Contact />
           </main>
-          {/* <Footer /> */}
         </>
       )}
       <Loader isLoading={isLoading} setIsLoading={handleLoaderLoaded} />

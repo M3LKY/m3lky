@@ -64,7 +64,7 @@ function Hero() {
       >
         Systems Engineer
       </motion.h3>
-      <motion.p
+      <motion.h4
         className="hero-text"
         initial={{ opacity: 0, y: 5 }}
         animate={{ opacity: 1, y: 0 }}
@@ -76,7 +76,7 @@ function Hero() {
       >
         dedicated to designing robust and scalable solutions. Bridging the gap between cutting-edge technology and practical implementation for smooth user experiences.
         
-      </motion.p>
+      </motion.h4>
       <motion.div
         className="hero-button"
         initial={{ opacity: 0, y: 5 }}

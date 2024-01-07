@@ -20,58 +20,20 @@ function Loader({ isLoading, setIsLoading }: any) {
             ease: "easeInOut",
           }}
         >
-          <motion.svg
-            id="logo"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
-          >
-            <title>Logo</title>
-            <g>
-              <g id="M" transform="translate(35.000000, 35.000000)">
-                <motion.text
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 1,
-                  }}
-                  exit={{
-                    scale: 2,
-                  }}
-                  x="-2"
-                  y="30"
-                  font-family="Arial"
-                  font-size="40"
-                  fill="currentColor"
-                >
-                  M
-                </motion.text>
-              </g>
-
-              <motion.path
-                initial={{ pathLength: 0 }}
-                animate={{ pathLength: 1 }}
-                transition={{
-                  duration: 1,
-                  ease: "easeInOut",
-                }}
-                exit={{
-                  scale: 2,
-                }}
-                stroke="currentColor"
-                strokeWidth="5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M 50, 5
-          L 11, 27
-          L 11, 72
-          L 50, 95
-          L 89, 73
-          L 89, 28 z"
-              />
-            </g>
-          </motion.svg>
+          <motion.img
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{
+              duration: 1,
+              ease: "easeInOut",
+              delay: 1,
+            }}
+            exit={{
+              scale: 2,
+            }}
+            src="g.png"
+            width={"130"}
+          />
         </motion.div>
       )}
     </AnimatePresence>
