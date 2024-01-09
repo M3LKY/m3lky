@@ -12,7 +12,7 @@ function Projects() {
       projectDescription:
         "An application engineered for seamless sharing of moments, dynamic interaction, and real-time conversations. Crafted with technologies like React for a responsive UI, Node.js for a versatile backend, Cloudinary for efficient media storage, MongoDB for reliable data persistence, and Javascript for versatile functionality.",
       noteDescription:
-        "For testing: { username: LeeSung, password: 123 }",
+        "For testing: { username: LeeSung, password: 123}",
       projectTech: [
         "React",
         "Node.js",
